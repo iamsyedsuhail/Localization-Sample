@@ -5,13 +5,16 @@ using UnityEngine;
 [CreateAssetMenu(fileName = "LanguageDataName",menuName ="ScriptableObjects/LanguageData")]
 public class LanguageData : ScriptableObject
 {
+    //identifiers can be used whenever we need them
     public string langaugeName;
     public int ID;
 
+    //samples variables will be used in this sample
     [Header("Sample")]
     public string title = "Title";
     public string play = "Play";
 
+    //below texts are for reference i used it in my latest game.
     [Header("Settings")]
     public string settings = "Settings";
     public string themeSelecion = "Color Theme";
